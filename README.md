@@ -16,7 +16,8 @@ Class-Incremental Learning (Class-IL) aims to continuously learn new knowledge w
 
 ## Setup
 * $ pip install -r requirements.txt
-* Run experiments: $ python main.py
+* Run experiments: $ python main.py --dataset  seq-cifar100  --model bdt --buffer_size 200 --load_best_args --csv_log --output_dir experiments/c100_bdt
+           
 
 ## Datasets
 * Sequential MNIST 
